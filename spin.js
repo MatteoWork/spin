@@ -1,3 +1,7 @@
+let inpString = "Lorem ipsus magicaa astroungarico ciao";
+let reversed = reverseWords(inpString);
+console.log(reversed);
+
 function reverseWords(phrase) {
     let words = phrase.split('');
 
@@ -9,7 +13,3 @@ function reverseWords(phrase) {
     
     return words.join(' ');
 } 
-
-let inpString = "Lorem ipsus magicaa astroungarico ciao";
-let reversed = reverseWords(inpString);
-console.log(reversed);
